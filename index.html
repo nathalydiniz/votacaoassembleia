@@ -1,16 +1,63 @@
 <html lang="pt">
-  <head>
-    <title>Minha primeira página</title>
-  </head>
+  <html>
+    <head>
+      <style>
+        body {
+        background-image: url('fundo-teste-site.png');
+        }
+      </style>
+    <head>
+      <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    </head>
+  <body>
+    <head>
+      <title>🌐 REI is the future</title>
+      <link rel="stylesheet" href="estilo.css">
+    </head>
   <body>
     <header>
-    <h1>Minha primeira página HTML</h1>
+      <section id="texto">
+        <h1 class="textoImportante" style="font-size:200%;">Registro Eletrônico de Imóveis</h1>
+      </section>
+      <br/><br/>
     </header>
-    <section>
-      <p>Eu estou adorando aprender programação WEB depois da Blockchain </p> 
-    </section>
+      <section id="texto">
+        <p class="textoImportante">O futuro é agora! </p>
+          <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+        <p class="textoImportante"style="font-size:115%;"> Faça o seu R.E.I. e esteja por dentro das principais mudanças </p>
+          <br/><br/>
+      </section>
+      <section>
+        <p class="textoImportante">
+          <form name="formImovel" id="formImovel">
+                <fieldset>
+                  <legend class="textoImportante"style="font-size:100%">Preencha os campos abaixo para registrar seu imóvel &nbsp;</legend>
+                  <br/>
+                  <div>
+                    <label for="_endereco" class="textoImportante"style="font-size:80%"> Endereço Ethereum do Proprietário: </label>
+                    <br>
+                    <input type="text" id="_endereco" name="_endereco" size="22" maxlength="22" >
+                  </div>
+                  <div>
+                    <label for="_nomeProprietario" class="textoImportante" style="font-size:80%">Nome do Proprietário:</label>
+                    <br>
+                    <input type="text" name="_nomeProprietario" id="_nomeProprietario" size="100">
+                  </div>
+                  <div>
+                    <label for="_valorVenal"class="textoImportante" style="font-size:80%">Valor Venal: R$ </label>
+                    <input type="number" name="_valorVenal" id="_valorVenal">
+                  </div>
+                  <div>
+                    <button class="textoImportante"style="font-size:70%">💾 Salvar</button>
+                  </div>
+                </fieldset>
+              </form>
+        </p>           
+      </section>
     <footer>
-      <small> Aqui vem aquela parte clichê de copyright</small>
+      <hr>
+        <small class="textoImportante" style="font-size:60%">👾&nbsp;<i>@nathalydiniz todos os direitos reservados ® </i></small>
     </footer>
-  </body>
+   </body>
+  </style>
 </html>

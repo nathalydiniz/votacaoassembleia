@@ -1,0 +1,18 @@
+body {
+    background-color: pink;
+}
+
+#texto {
+    text-align: center;
+}
+
+.textoImportante {
+    color: midnightblue;
+    font-family: 'Press Start 2P', cursive;
+    }
+
+footer {
+    text-align: center;
+    padding: 1px;
+    }    
+
